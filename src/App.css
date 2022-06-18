@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: lightgrey;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.displayUsers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.displayUsers div {
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.addUser {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  background-color: slategrey;
+  padding: 35px;
+}
+
+button {
+  background-color: whitesmoke;
+  height: 28px;
+  margin: 1px;
+  border: none;
+}
+.data-input{
+  height: 26px;
+  border: none;
+  margin: 0 2px;
+  border-radius: 5px;
+}
